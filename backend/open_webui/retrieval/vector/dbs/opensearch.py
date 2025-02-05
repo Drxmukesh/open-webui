@@ -57,7 +57,7 @@ class OpenSearchClient:
                     "vector": {
                         "type": "dense_vector",
                         "dims": dimension,  # Adjust based on your vector dimensions
-                        "index": true,
+                        "index": True,
                         "similarity": "faiss",
                         "method": {
                             "name": "hnsw",
